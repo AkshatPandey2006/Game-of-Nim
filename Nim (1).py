@@ -1,25 +1,4 @@
-'''
 
-This is the Game of Nim
-
-A strategy game from ancient times involving three groups of objects.
-In this version of Nim, the groups are made up of 3, 5 and 7 objects.
-The game is played by each player selecting objects to remove from the groups until there are no objects left.
-The rules are that players take turns in removing objects.
-Players may remove as many objects as they want each turn, but can only remove objects from one group each turn.
-The player who is forced to take the last piece is the loser.
-
-In this game you are playing against the computer which knows the best move in all possible board combinations.
-Where the computer cannot win, it will try to trick you into making a mistake.
-The computer changes its strategy slightly using random choices for some moves where it does not have a clear advantage.
-
-This game has been programed into Python 3 using Tkinter for the GUI.
-If you do not have Tkinter installed, in cmd type "python -m pip install tkinter"
-
-Written by Matthew Reid
-14 Jan 2018
-
-'''
 
 from tkinter import Tk, Canvas, Frame, Button, LEFT, RIGHT, messagebox, CURRENT
 from random import randint
